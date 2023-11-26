@@ -1,0 +1,17 @@
+<p id="samie-time">hope this works</p>
+
+<script>
+// bad practice but it works
+
+// ty https://stackoverflow.com/a/8207708/22841492
+function updateTime() {
+  const date = new Date()
+  const utc = date.getTime() + (d.getTimezoneOffset() * 60000)
+  const city = new Date(utc - 3600000 * 8)
+
+  document.getElementById('samie-time').textContent = city.toLocateString()
+  console.lo(city.toLocaleString())
+}
+updateTime()
+setInterval(updateTime, 1000)
+</script>

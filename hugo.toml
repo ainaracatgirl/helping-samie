@@ -1,0 +1,18 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Helping Samie :3'
+theme = 'risotto'
+sectionPagesMenu = 'main'
+
+[params.about]
+title = 'my name i think'
+description = 'hi im me'
+logo = "images/pfp.png"
+
+[[params.socialLinks]]
+icon = 'fa-brands fa-github'
+title = 'GitHub'
+url = 'https://example.com'
+
+[params.theme]
+palette = 'samie'
