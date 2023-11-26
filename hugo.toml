@@ -5,7 +5,7 @@ theme = 'risotto'
 sectionPagesMenu = 'main'
 
 [params.about]
-title = 'my name i think'
+title = 'my name i think aa'
 description = 'hi im me'
 logo = "images/pfp.png"
 
